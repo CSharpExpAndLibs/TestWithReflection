@@ -14,7 +14,7 @@ namespace TestWithReflection
 
         static void Main(string[] args)
         {
-            if(args != null)
+            if(args != null && args.Length != 0)
             {
                 NumOfMembers = args.Length / 2;
                 members = new MemberSpec[NumOfMembers];
